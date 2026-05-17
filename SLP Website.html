@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Standard Laundry Partners — NYC Laundromat Acquisitions</title>
+<meta name="description" content="Standard Laundry Partners is a small acquisition group focused on established laundromats across the NYC metro area. We buy and operate neighborhood laundromats for the long term.">
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph / social preview -->
+<meta property="og:title" content="Standard Laundry Partners">
+<meta property="og:description" content="We buy and operate neighborhood laundromats in New York City.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://standardlaundrynyc.com">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=Source+Serif+4:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --bg: #FAFAF7;
+  --bg-alt: #F4F2EC;
+  --ink: #14213D;
+  --text: #2A2A26;
+  --text-muted: #5A5A55;
+  --text-soft: #8A8A82;
+  --rule: rgba(20, 33, 61, 0.08);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Inter Tight', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container { max-width: 880px; margin: 0 auto; }
+
+/* Header */
+.site-header {
+  padding: 28px 48px;
+  border-bottom: 1px solid var(--rule);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.brand-mark {
+  width: 30px;
+  height: 30px;
+  background: var(--ink);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--bg);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.brand-name {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  color: var(--ink);
+}
+
+.site-meta {
+  font-size: 11px;
+  color: var(--text-muted);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+/* Sections */
+section { padding: 72px 48px; }
+section.alt { background: var(--bg-alt); border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+
+.eyebrow {
+  font-size: 11px;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  color: var(--text-soft);
+  margin-bottom: 28px;
+  font-weight: 500;
+}
+
+h1 {
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--ink);
+  letter-spacing: -0.5px;
+  margin-bottom: 28px;
+  max-width: 600px;
+}
+
+h2 {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--ink);
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 15px;
+  line-height: 1.75;
+  color: var(--text);
+  max-width: 640px;
+  margin-bottom: 16px;
+}
+
+p:last-child { margin-bottom: 0; }
+
+.hero p { font-size: 16.5px; }
+
+.block { margin-bottom: 40px; }
+.block:last-child { margin-bottom: 0; }
+
+ul {
+  list-style: none;
+  margin: 14px 0;
+  max-width: 640px;
+}
+
+ul li {
+  font-size: 15px;
+  line-height: 2;
+  color: var(--text);
+  padding-left: 22px;
+  position: relative;
+}
+
+ul li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 14px;
+  width: 8px;
+  height: 1px;
+  background: var(--text-muted);
+}
+
+/* Contact */
+.contact-email {
+  display: inline-block;
+  font-size: 18px;
+  color: var(--ink);
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 1px solid var(--ink);
+  padding-bottom: 3px;
+  margin-top: 8px;
+  transition: opacity 0.2s ease;
+}
+
+.contact-email:hover { opacity: 0.7; }
+
+/* Footer */
+.site-footer {
+  padding: 32px 48px;
+  border-top: 1px solid var(--rule);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-footer div {
+  font-size: 12px;
+  color: var(--text-soft);
+  letter-spacing: 0.3px;
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+  .site-header { padding: 22px 24px; }
+  section { padding: 48px 24px; }
+  .site-footer { padding: 24px; flex-direction: column; gap: 8px; align-items: flex-start; }
+  h1 { font-size: 30px; }
+  p, ul li { font-size: 15px; }
+  .site-meta { font-size: 10px; }
+}
+</style>
+</head>
+
+<body>
+
+<header class="site-header">
+  <div class="brand">
+    <div class="brand-mark">SL</div>
+    <div class="brand-name">Standard Laundry Partners</div>
+  </div>
+  <div class="site-meta">New York</div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <h1>We buy and operate neighborhood laundromats in New York City.</h1>
+    <p>Standard Laundry Partners is a small acquisition group focused on established laundromats across the NYC metro area. We look for durable neighborhood businesses with loyal customers, steady cash flow, and owners who may be thinking about a transition. Our goal is to buy good laundromats, operate them carefully, and continue serving the communities that rely on them.</p>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="container">
+    <div class="eyebrow">What we look for</div>
+
+    <div class="block">
+      <h2>Geography</h2>
+      <p>Brooklyn, Queens, the Bronx, Manhattan, and Staten Island. We are especially interested in outer-borough stores with strong neighborhood density, repeat customer traffic, and room for thoughtful operational improvement.</p>
+    </div>
+
+    <div class="block">
+      <h2>Size</h2>
+      <p>We are flexible on size. We look at single stores and small multi-store portfolios where the locations are well-run and locally established.</p>
+    </div>
+
+    <div class="block">
+      <h2>Store profile</h2>
+      <p>We are most interested in laundromats with:</p>
+      <ul>
+        <li>Verifiable cash flow</li>
+        <li>Stable lease terms</li>
+        <li>Established customer demand</li>
+        <li>Functional equipment and infrastructure</li>
+        <li>Room to grow service offerings</li>
+        <li>A strong neighborhood presence</li>
+      </ul>
+      <p>We understand that every laundromat is different. Some stores are polished and fully modernized. Others have been operated the same way for years and may simply need new energy, systems, and hands-on attention.</p>
+    </div>
+
+    <div class="block">
+      <h2>Transaction structure</h2>
+      <p>We can work directly with owners, families, brokers, landlords, and local advisors. We are flexible on timing, transition support, and deal structure. For owners who want to step away gradually, we are open to a thoughtful handoff period.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="eyebrow">Who we are</div>
+    <p>Standard Laundry Partners is led by two partners with experience operating high-growth businesses. We are focused on buying and operating laundromats for the long term.</p>
+    <p>We care about practical businesses that serve real neighborhoods. Laundromats are local, essential, and relationship-driven. That is exactly why we like them.</p>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="container">
+    <div class="eyebrow">For owners</div>
+    <p>Selling a laundromat is a personal decision. Many owners have spent years building their store, serving the same customers, managing staff, fixing machines, and keeping the lights on every day.</p>
+    <p>We respect that.</p>
+    <p>If you are considering retirement, simplifying your life, selling a family business, or just understanding what your store may be worth, we would be happy to have a confidential conversation. There is no pressure and no obligation.</p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="eyebrow">Contact</div>
+    <p>For owner conversations, broker introductions, and listing inquiries:</p>
+    <a href="mailto:hello@standardlaundrynyc.com" class="contact-email">hello@standardlaundrynyc.com</a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div>© 2026 Standard Laundry Partners</div>
+  <div>New York, NY</div>
+</footer>
+
+</body>
+</html>
